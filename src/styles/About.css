@@ -1,0 +1,66 @@
+.about-container{
+    background-color: #000000;
+    height: 90vh;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 50% 50%;
+}
+
+
+
+.about-image{
+
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.about-image img{
+
+    height: 70vh;
+    width: 28vw;
+    box-shadow: 10px 10px  rgba(0, 247, 255, 0.651);
+    border-radius: 0.3rem;
+
+}
+
+.about-text{
+
+    width: 90%;
+    font-family:𝒯𝓎𝓅𝑒 𝓈𝑜𝓂𝑒𝓉𝒽𝒾𝓃𝑔 𝓉𝑜 𝓈𝓉𝒶𝓇𝓉;
+    
+}
+
+.about-text span{
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.about-text span .about-line{
+
+    height: 2px;
+    width: 50px;
+    background-color: aqua;
+    margin: 0;
+}
+
+.about-text span h5{
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 400;
+    color: aqua;
+    
+}
+
+.about-text h3{
+    font-size: 2.5rem;
+    margin: 0;
+    color:rgba(0, 255, 255, 0.911) ;
+}
+
+.about-text p{
+    font-size: 1.2rem;
+    color:rgba(0, 255, 255, 0.74);
+}
